@@ -1,3 +1,4 @@
+/* VARIABLES */
 #adamlocation iframe {
   width: 100%; }
 
@@ -6,12 +7,26 @@
 
 .bubbles img {
   border: 5px solid white;
-  opacity: 0.8; }
+  opacity: 0.8;
+  border-style: dashed;
+  border-width: 4px;
+  border-color: white; }
   .bubbles img:hover {
-    opacity: 1; }
+    opacity: 1;
+    border-color: #337ab7; }
 
 address {
   margin-bottom: 4px; }
 
 #mapaddress {
   padding-top: 10px; }
+
+#specials_coupons img {
+  border-style: dashed;
+  border-width: 4px;
+  border-color: white; }
+  #specials_coupons img:hover {
+    border-color: #337ab7; }
+
+#specials_coupons a {
+  background-color: red; }
