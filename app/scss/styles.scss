@@ -1,0 +1,28 @@
+#adamlocation iframe {
+  width: 100%;
+  // min-height: 212px;
+}
+
+#adamlocation p {
+  font-weight: bold;
+}
+
+.bubbles img{
+    border: 5px solid white;
+    opacity: 0.8;
+    // transition: border 0.1s;
+  &:hover {
+    // border: 0px solid white;
+    opacity: 1;
+    // cursor: pointer;
+
+  }
+}
+
+address {
+  margin-bottom: 4px;
+}
+
+#mapaddress {
+  padding-top: 10px;
+}
